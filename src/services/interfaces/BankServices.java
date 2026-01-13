@@ -8,7 +8,6 @@ import data.repositories.BankRepository;
 public interface BankServices {
     Account createAccount(Bank bank, Account account, long bvn);
     Account createBvn(Account account);
-    Account createCard(Account account);
     void deposit(Account account, double amount , String pin);
     void transfer(Account sender, Account receiver, double amount, String pin);
     void withdraw(Account account, double amount , String pin);

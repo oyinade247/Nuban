@@ -52,10 +52,7 @@ public class BankServiceImpl implements BankServices {
 
     }
 
-    @Override
-    public Account createCard(Account account) {
-        return null;
-    }
+
 
     @Override
     public void deposit(Account account, double amount, String pin) {
